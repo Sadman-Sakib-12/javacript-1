@@ -1,8 +1,10 @@
+/** Problem 06 :  (Current Salary )  */
 var experience = 30;
 var startingSalary = 45000;
-
-var CurrentSalary=startingSalary
-for(var i=1; i<=experience; i++){
-    CurrentSalary=CurrentSalary+(CurrentSalary*0.05)
+if (startingSalary > 0 && startingSalary <= 10000000 && experience > 0 && experience <= 50) {
+    var CurrentSalary = startingSalary
+    for (var i = 1; i <= experience; i++) {
+        CurrentSalary = CurrentSalary + (CurrentSalary *5)/100
+    }
 }
 console.log(CurrentSalary.toFixed(2));

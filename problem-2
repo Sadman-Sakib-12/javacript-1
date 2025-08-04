@@ -1,13 +1,11 @@
+/** Problem -02 ( Cycle or Laptop ) */
 var money = 10000;
-if (money <= 45000) {
+if (money >= 25000) {
     console.log('Laptop');
 }
-
-if (money <= 10000) {
+else if (money >= 10000) {
     console.log('Cycle');
-
 }
-
-if (money <= 9999) {
+else {
     console.log('Chocolate');
 }

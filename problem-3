@@ -1,11 +1,13 @@
+/** Problem -03 ( Medicine Planner ) */
 var lastDay = 11;
+if (lastDay >= 3 && lastDay <= 30) {
+    for (var i = 1; i <= lastDay; i++) {
+        if (i % 3 === 0) {
+            console.log('-mcdicine');
 
-for (var i = 1; i <= lastDay; i++) {
-    if (i % 3 === 0) {
-        console.log('-mcdicine');
+        } else {
+            console.log('-rest');
 
-    } else {
-        console.log('-rest');
-
+        }
     }
 }

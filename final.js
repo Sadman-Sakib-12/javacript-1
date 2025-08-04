@@ -1,9 +1,9 @@
 /** Problem -01 ( Divide the Asset ) */
-var area = 100;
+var area = 800;
 var result = area / 2;
 console.log(result);
 
-var area = 15;
+var area = 100;
 var result = area / 2;
 console.log(result);
 

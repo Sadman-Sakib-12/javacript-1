@@ -1,0 +1,13 @@
+var money = 10000;
+if (money <= 45000) {
+    console.log('Laptop');
+}
+
+if (money <= 10000) {
+    console.log('Cycle');
+
+}
+
+if (money <= 9999) {
+    console.log('Chocolate');
+}

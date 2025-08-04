@@ -1,0 +1,8 @@
+var fileName = "pdfData.jpg";
+    if (fileName.includes(".pdf") || fileName.includes(".docx") || fileName.includes("#")) {
+        console.log("Store");
+        
+    }else{
+        console.log("Delete");
+        
+    }

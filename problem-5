@@ -1,0 +1,28 @@
+var student = { name: "jhankar",
+    roll: 1014,
+    dusomig: '.',
+    department: "cse",
+    email: '@ph.ac.bd' };
+
+var email = Object.values(student).join('');
+console.log(email);
+
+var student = {
+    name: 'monu',
+    roll: 99,
+    dusomig: '.',
+    department: 'eee',
+    email: '@ph.ac.bd' }
+
+var email = Object.values(student).join('');
+console.log(email);
+
+var student = {
+    name: 'mewo',
+    roll: 96,
+    dusomig: '.',
+    department: 'cse',
+    email: '@ph.ac.bd' }
+
+var email = Object.values(student).join('');
+console.log(email);

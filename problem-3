@@ -1,0 +1,11 @@
+var lastDay = 11;
+
+for (var i = 1; i <= lastDay; i++) {
+    if (i % 3 === 0) {
+        console.log('-mcdicine');
+
+    } else {
+        console.log('-rest');
+
+    }
+}

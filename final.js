@@ -52,33 +52,27 @@ var fileName = "pdfData.jpg";
     }
 
 /** Problem 05 - ( PH Email Generator )  */
-var student = { name: "jhankar",
+var student = { 
+    name: "jhankar",
     roll: 1014,
-    dusomig: '.',
-    department: "cse",
-    email: '@ph.ac.bd' };
+    department: "cse" };
 
-var email = Object.values(student).join('');
+var email =student.name+''+student.roll+'.'+student.department+''+'@ph.ac.bd';
 console.log(email);
 
 var student = {
     name: 'monu',
     roll: 99,
-    dusomig: '.',
-    department: 'eee',
-    email: '@ph.ac.bd' }
+    department: 'eee' }
 
-var email = Object.values(student).join('');
+var email =student.name+''+student.roll+'.'+student.department+''+'@ph.ac.bd';
 console.log(email);
 
 var student = {
     name: 'mewo',
     roll: 96,
-    dusomig: '.',
-    department: 'cse',
-    email: '@ph.ac.bd' }
-
-var email = Object.values(student).join('');
+    department: 'cse' }
+var email =student.name+''+student.roll+'.'+student.department+''+'@ph.ac.bd';
 console.log(email);
 
 /** Problem 06 :  (Current Salary )  */
